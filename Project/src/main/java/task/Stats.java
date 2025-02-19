@@ -25,7 +25,8 @@ public class Stats {
         this.realMax = Double.MIN_VALUE;
         this.realSum = 0;
 
-        this.stringMinLength = this.stringMaxLength = 0;
+        this.stringMinLength = Integer.MAX_VALUE;
+        this.stringMaxLength = 0;
     }
 
     public void update(DataType type, String value) {
